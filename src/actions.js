@@ -54,6 +54,7 @@ export const updateDocument = async(collection, id, data) => {
     catch(error){
         result.error = error
     }
+    return result
 }
 
 export const deleteDocument = async(collection, id) => {
